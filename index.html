@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonsagar - Thoughts, ideas and implement.</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="https://anonsagar.com/assets/img/logo.png">
+</head>
+
+<body>
+    <!-- Navigation Bar  -->
+    <nav class="relative container mx-auto p-4">
+        <!-- flex container  -->
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="-mt-2">
+                <a href="index.html">
+                    <img src="img/anonblack.svg" class="h-16" alt="logo">
+            </div>
+
+            <!-- menu items  -->
+            <div class="hidden md:flex space-x-6 font-semibold ">
+                <a class="text-darkBlue hover:text-darkGrayishBlue " href="index.html">Home</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="#blogs">Blog</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="#about">About</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="contact.html">Support</a>
+                <input type="search" placeholder="Search"
+                    class="w-full hover:text-darkGrayishBlue text-veryDarkBlue rounded-full border-solid border-2 border-darkBlue-600 px-3 py-1 -mt-2">
+            </div>
+
+            <!-- hamburger icon  -->
+            <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- mobile menu  -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute hidden flex-col items-center self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+
+                <a class="text-darkBlue hover:text-darkGrayishBlue " href="index.html">Home</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="#blogs">Blog</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="#about">About</a>
+                <a class=" text-darkBlue hover:text-darkGrayishBlue" href="contact.html">Support</a>
+                <input type="search" placeholder="Search..."
+                    class=" hover:text-darkGrayishBlue text-veryDarkBlue rounded-full border-solid border-2 w-40 border-darkBlue-600 px-3 py-1 -mt-2">
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- hero section  -->
+    <section id="hero">
+        <!-- flex container  -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- left side -->
+            <div class=" flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left text-darkBlue"> Anonsagar
+                    represents
+                    your passion
+                </h1>
+                <p class="max-w-sm text-darkGrayishBlue text-center md:text-left">
+                    You can find awesome programming lessons here! Also, expect programming tips and tricks that will
+                    take your coding skills to the next level. At Anonsagar, I provide a quick and to the point demo
+                    along with resources of anything and everything I teach.
+
+                </p>
+
+                <!-- button  -->
+                <div class="flex justify-center md:justify-start">
+                    <button type="button"
+                        class="bg-darkBlue px-4 py-2 rounded-full font-semibold text-white hover:bg-darkGrayishBlue hover:text-veryDarkBlue outline outline-offset-2 outline-1"><a
+                            href="#">Get Support</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- image side  -->
+            <div class="md:w-1/2">
+                <img src="img/Blogging-bro.svg" alt="anonboyisbloging">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Blogs List  -->
+    <section id="blogs">
+        <!-- container heading and testemonial blocks -->
+        <div class="max-w-6xl px-5 mx-auto text-center -mt-8 md:mt-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-darkBlue">
+                Latest Blogs
+            </h2>
+
+            <!-- blog container 1  -->
+
+            <div
+                class="container mx-auto flex flex-col mt-24 md:flex-row justify-center md:space-x-6 space-y-7 md:space-y-0">
+
+                <!-- blog 1 -->
+                <div
+                    class="flex flex-col space-y-6 bg-veryLightGray md:w-1/3 drop-shadow-md rounded-b-md hover:shadow-xl shadow-darkBlue">
+
+                    <img src="img\bannersinglepost.png"
+                        class="rounded-t-xl w-full h-full " alt="image">
+
+                    <a href="postpage.html">
+                        <h3 class="font-semibold text-lg text-darkBlue md:text-left px-6">What is Steganography? ||
+                            More Details on Steganography
+                        </h3>
+                    </a>
+
+                    <a href="postpage.html">
+                        <p class="text-darkGrayishBlue md:text-left px-6 ">Steganography is the technique of concealing
+                            data
+                            within another
+                            images,files ,messages or
+                            videos...
+                        </p>
+                    </a>
+
+                    <p class="text-sm text-darkBlue pb-6 md:text-left px-6 ">
+                        <span class="text-darkGrayishBlue">3 months ago</span>
+                        <span class="font-semibold"> • </span>
+                        <span class="text-darkGrayishBlue">2 min read</span>
+
+                    </p>
+
+                </div>
+
+                <!-- blog 2 -->
+                <div
+                    class="flex flex-col space-y-6 bg-veryLightGray md:w-1/3 drop-shadow-md rounded-b-md hover:shadow-xl shadow-darkBlue">
+
+                    <img src="img\bannersinglepost.png" class="rounded-t-xl w-full h-full "
+                        alt="image">
+
+
+                    <a href="postpage.html">
+
+                        <h3 class="font-semibold text-lg text-darkBlue md:text-left px-6">
+                            What is hashing? ||
+                            More Details on Hashing
+                        </h3>
+
+                    </a>
+                    <a href="postpage.html">
+                        <p class="text-darkGrayishBlue md:text-left px-6 ">Steganography is the technique of concealing
+                            data
+                            within another
+                            images,files ,messages or
+                            videos...
+                        </p>
+                    </a>
+
+                    <p class="text-sm text-darkBlue pb-6 md:text-left px-6 ">
+                        <span class="text-darkGrayishBlue">3 months ago</span>
+                        <span class="font-semibold"> • </span>
+                        <span class="text-darkGrayishBlue">2 min read</span>
+
+                    </p>
+                </div>
+
+                <!-- blog 3 -->
+                <div
+                    class="flex flex-col space-y-6 bg-veryLightGray md:w-1/3 drop-shadow-md rounded-b-md hover:shadow-xl shadow-darkBlue">
+
+                    <img src="img\bannersinglepost.png" class="rounded-t-xl w-full h-full " alt="image">
+
+                    <a href="postpage.html">
+
+                        <h3 class="font-semibold text-lg text-darkBlue md:text-left px-6">What is Proxy Server? ||
+                            More Details on it's working process
+                        </h3>
+                    </a>
+
+                    <a href="postpage.html">
+
+                        <p class="text-darkGrayishBlue md:text-left px-6 ">Steganography is the technique of concealing
+                            data
+                            within another
+                            images,files ,messages or
+                            videos...
+                        </p>
+
+                    </a>
+                    <p class="text-sm text-darkBlue pb-6 md:text-left px-6 ">
+                        <span class="text-darkGrayishBlue">3 months ago</span>
+                        <span class="font-semibold"> • </span>
+                        <span class="text-darkGrayishBlue">2 min read</span>
+
+                    </p>
+
+                </div>
+
+
+
+
+            </div>
+
+            <!-- blog container 2  -->
+
+            <div
+                class="container mx-auto flex flex-col mt-7 md:flex-row justify-center md:space-x-6 space-y-7 md:space-y-0">
+
+                <!-- blog 1 -->
+                <div
+                    class="flex flex-col space-y-6 bg-veryLightGray md:w-1/3 drop-shadow-md rounded-b-md hover:shadow-xl shadow-darkBlue">
+
+                    <img src="img\bannersinglepost.png" class="rounded-t-xl w-full h-full "
+                        alt="image">
+
+                    <a href="postpage.html">
+
+                        <h3 class="font-semibold text-lg text-darkBlue md:text-left px-6">What is Bruteforce Attack? ||
+                            More Details on Bruteforce Attack
+                        </h3>
+                    </a>
+
+                    <a href="postpage.html">
+
+                        <p class="text-darkGrayishBlue md:text-left px-6 ">Steganography is the technique of concealing
+                            data
+                            within another
+                            images,files ,messages or
+                            videos...
+                        </p>
+
+                    </a>
+                    <p class="text-sm text-darkBlue pb-6 md:text-left px-6 ">
+                        <span class="text-darkGrayishBlue">3 months ago</span>
+                        <span class="font-semibold"> • </span>
+                        <span class="text-darkGrayishBlue">2 min read</span>
+
+                    </p>
+
+                </div>
+
+                <!-- blog 3 -->
+                <div
+                    class="flex flex-col space-y-6 bg-veryLightGray md:w-1/3 drop-shadow-md rounded-b-md hover:shadow-xl shadow-darkBlue">
+
+                    <img src="img\bannersinglepost.png"
+                        class="rounded-t-xl w-full h-full " alt="image">
+
+                    <a href="postpage.html">
+
+                        <h3 class="font-semibold text-lg text-darkBlue md:text-left px-6">What is Figma ||
+                            Steps to get 2-Years Figma Pro for free
+                        </h3>
+                    </a>
+
+                    <a href="postpage.html">
+
+                        <p class="text-darkGrayishBlue md:text-left px-6 ">Steganography is the technique of concealing
+                            data
+                            within another
+                            images,files ,messages or
+                            videos...
+                        </p>
+                    </a>
+                    <p class="text-sm text-darkBlue pb-6 md:text-left px-6 ">
+                        <span class="text-darkGrayishBlue">3 months ago</span>
+                        <span class="font-semibold"> • </span>
+                        <span class="text-darkGrayishBlue">2 min read</span>
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <!-- button  -->
+            <!-- <div class="my-16">
+                <button type="button"
+                    class="bg-darkBlue px-4 py-2 rounded-full font-semibold text-white hover:bg-darkGrayishBlue hover:text-veryDarkBlue outline outline-offset-2 outline-1"><a
+                        href="#">Load More</a>
+                </button>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <!-- Huddle Nepal Ads Section  -->
+
+    <section id="cta" class="bg-red-600 mt-20">
+        <!-- flex container  -->
+        <div
+            class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0  ">
+            <!-- heading  -->
+            <h2
+                class="text-4xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl xl:max-w-2xl md:text-left ">
+                Huddle Nepal, a place for promoting events, and bootcamps for free.
+            </h2>
+
+            <!-- button  -->
+            <a href="https://huddlenepal.com/" rel="dofollow" target="_blank"
+                class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full basline hover:bg-brightRedLight shadow-md shadow-red-600/50 hover:shadow-xl hover:shadow-red-600/50 font-semibold">Add
+                Event</a>
+
+        </div>
+
+    </section>
+
+    <!-- services section  -->
+    <section id="about">
+        <!-- flex container  -->
+        <div
+            class="container flex flex-col justify-center px-4 mx-auto mt-16 md:mt-28  space-y-12 md:space-y-0 md:flex-row mb-20 md:mb-28 md:justify-start">
+
+            <!-- about author -->
+            <div class="flex flex-col space-y-12 md:w-1/2">
+                <h2 class="max-w-md text-4xl md:text-5xl font-bold text-center md:text-left text-darkBlue">About The
+                    Author</h2>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left ">
+                    Founder of Tritech and creator of "Anonsagar Cyber Blog" that you're currently previewing. Through
+                    this blog, my attempt is to teach basics and those coding techniques to people in short time which
+                    took me ages to learn. You can reach me out on the social links below.
+
+                </p>
+
+            </div>
+
+            <!-- services list -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <!-- list items 1  -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-darkBlue ">
+                                01
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                PHP & Larvel Backend Service
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            PHP & Larvel Backend Service
+                        </h3>
+                        <p class="text-darkGrayishBlue ">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse sequi corporis architecto
+                            soluta sed deleniti explicabo, debitis laboriosam, tempore error odio necessitatibus fugiat
+                            vero. Voluptatum ab quae inventore excepturi culpa.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- list items 2  -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-darkBlue ">
+                                02
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Search Engine Optimization (SEO) Service
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Search Engine Optimization (SEO)
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio est dolores eos
+                            corrupti. Nesciunt error culpa libero voluptas aut accusantium, asperiores omnis unde! Quia
+                            quidem tempore inventore ipsum, dicta laboriosam! </p>
+                    </div>
+                </div>
+
+
+                <!-- list items 3  -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-darkBlue ">
+                                03
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Search Engine Optimization (SEO) Service
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Frontend Development Service
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio est dolores eos
+                            corrupti. Nesciunt error culpa libero voluptas aut accusantium, asperiores omnis unde! Quia
+                            quidem tempore inventore ipsum, dicta laboriosam! </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- Footer  -->
+    <footer class="bg-darkBlue">
+        <!-- flex container  -->
+        <div
+            class="container flex flex-col-reverse justify-between px-6 py-16 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- logo and social links -->
+            <div
+                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+
+
+                <!-- logo  -->
+                <div class="pt-9 md:pt-0">
+                    <img src="img/anonwhite.svg" class="h-16 md:h-20 md:-mt-5 md:-ml-5 " alt="anonsagar">
+                </div>
+
+                <!-- social link container  -->
+                <div class="flex justify-center space-x-4">
+                    <!-- link1  -->
+                    <a href="#">
+                        <img src="img/icon-facebook.svg" alt="facebook" class="h-8">
+                    </a>
+                    <!-- link2  -->
+                    <a href="#">
+                        <img src="img/icon-instagram.svg" alt="insta" class="h-8">
+                    </a>
+                    <!-- link3  -->
+                    <a href="#">
+                        <img src="img/icon-twitter.svg" alt="twitter" class="h-8">
+                    </a>
+                    <!-- link4  -->
+                    <a href="#">
+                        <img src="img/icon-youtube.svg" alt="youtube" class="h-8">
+                    </a>
+                </div>
+            </div>
+
+            <!-- list container -->
+            <div class="flex justify-around space-x-12 xl:space-x-32 font-semibold">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+                    <a href="#blogs" class="hover:text-darkGrayishBlue">Blogs</a>
+                    <a href="#about" class="hover:text-darkGrayishBlue">About Us</a>
+                    <a href="https://huddlenepal.com/" class="hover:text-darkGrayishBlue">Huddle Nepal</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-darkGrayishBlue">Privacy Policy</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Terms</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Support</a>
+                    <a href="https://huddlenepal.com/" class="hover:text-darkGrayishBlue">Add Events</a>
+                </div>
+            </div>
+
+            <!-- Input Container  -->
+            <div class="flex flex-col justify-between ">
+                <h2 class="font-semibold text-white text-center p-6 md:p-0 text-lg md:text-base">Subscribe To NewsLetter
+                </h2>
+                <form>
+                    <div class="flex flex-col justify-between ">
+                        <input type="text" class="rounded-full py-2 px-3 text-center focus:outline-none"
+                            placeholder="Updates to your inbox" />
+
+
+                    </div>
+                    <div class="pt-3 text-center">
+                        <button type="submit"
+                            class="bg-veryDarkBlue px-4 py-2 rounded-full text-white hover:bg-darkGrayishBlue hover:text-veryDarkBlue drop-shadow-md">
+                            Go</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+        <div>
+            <!-- copyright © All rights reserved. -->
+            <p class="text-white bg-veryDarkBlue font-semibold md:block p-3 text-center">Copyright © 2022 Anonsagar.
+                All rights
+                reserved. </p>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
